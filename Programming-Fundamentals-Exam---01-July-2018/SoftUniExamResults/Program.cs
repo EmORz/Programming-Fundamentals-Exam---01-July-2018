@@ -54,7 +54,7 @@ namespace SoftUniExamResults
             Console.WriteLine("Submissions:");
             foreach (var item in studentLanguage.OrderByDescending(x => x.Value).ThenBy(n => n.Key))
             {
-                Console.WriteLine(item.Key + ": "+item.Value);       
+                Console.WriteLine(item.Key + " - "+item.Value);       
             }
 
         }

@@ -7,7 +7,7 @@ namespace SoftUni_Bar_Income
     {
         static void Main(string[] args)
         {
-            Regex reg = new Regex(@"[^|$%.]*?%([A-Z][a-z]+)%[^|$%.]*?<([A-Za-z]+)>[^.|$%]*?\|(\d+)\|[^.|$%]*?(\d+\.?\d*)\$");
+            Regex reg = new Regex(@"^([^|$%\.]*?%([A-Z][a-z]+)%[^|$%.]*?<(\w+)>[^.|$%]*?\|(\d+)\|[^.|$%]*?(\d+\.?\d+)\$)$");
             string input = Console.ReadLine();
             var totalIncome = 0.0;
 
@@ -17,13 +17,13 @@ namespace SoftUni_Bar_Income
                 if (reg.IsMatch(input))
                 {
                     Match extrudeData = reg.Match(input);
-                    var name = extrudeData.Groups[1].Value;
-                    var product = extrudeData.Groups[2].Value;
-                    var count = int.Parse(extrudeData.Groups[3].Value);
-                    var price = double.Parse(extrudeData.Groups[4].Value);
+                    var name = extrudeData.Groups[2].Value;
+                    var product = extrudeData.Groups[3].Value;
+                    var count = int.Parse(extrudeData.Groups[4].Value);
+                    var price = double.Parse(extrudeData.Groups[5].Value);
                     //For each valid line print on the console: "{customerName}: {product} - {totalPrice}"
-                    Console.WriteLine($"{name}: {product} - {price*count:f2}");
-                    totalIncome += (price*count);
+                    Console.WriteLine($"{name}: {product} - {price * count:f2}");
+                    totalIncome += (price * count);
                 }
 
                 input = Console.ReadLine();
