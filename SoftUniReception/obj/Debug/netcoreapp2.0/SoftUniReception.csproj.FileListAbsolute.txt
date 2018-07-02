@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\bin\Debug\netcoreapp2.0\SoftUniReception.deps.json
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\bin\Debug\netcoreapp2.0\SoftUniReception.runtimeconfig.json
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\bin\Debug\netcoreapp2.0\SoftUniReception.runtimeconfig.dev.json
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\bin\Debug\netcoreapp2.0\SoftUniReception.dll
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\bin\Debug\netcoreapp2.0\SoftUniReception.pdb
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\obj\Debug\netcoreapp2.0\SoftUniReception.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\obj\Debug\netcoreapp2.0\SoftUniReception.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\obj\Debug\netcoreapp2.0\SoftUniReception.AssemblyInfo.cs
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\obj\Debug\netcoreapp2.0\SoftUniReception.dll
+C:\Users\User\source\repos\Exam_Preparation_2\SoftUniReception\obj\Debug\netcoreapp2.0\SoftUniReception.pdb
