@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace SoftUniBarIncome
 {
@@ -6,15 +7,23 @@ namespace SoftUniBarIncome
     {
         static void Main(string[] args)
         {
-            Regex reg = new Regex(@"");
+            
+            //ToDo
+            Regex reg = new Regex(@"[^|$%.]*?%([A-Z][a-z]+)%[^|$%.]*?<([A-Za-z]+)>[^.|$%]*?\|(\d+)\|[^.|$%]*?(\d+\.?\d*)\$");
             string input = Console.ReadLine();
 
             while (input != "end of shift")
             {
-                var name = "";
-                var product = "";
-                var count = int.Parse();
-                var price = double.Parse();
+                
+                if (reg.Match(input))
+                {
+                    Match extrudeData = reg.Match(input);
+                    var name = extrudeData.Groups[1].Value;
+                    var product = "";
+                    var count = int.Parse();
+                    var price = double.Parse();
+                    Console.WriteLine(name);
+                }
 
                 input = Console.ReadLine();
             }
