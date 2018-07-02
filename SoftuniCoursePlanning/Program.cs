@@ -8,6 +8,7 @@ namespace SoftuniCoursePlanning
     {
         static void Main(string[] args)
         {
+            /*this version take only 66 points! => ToDo must be fix.
             List<string> sheduleLessons = Console.ReadLine().Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries).ToList();
             List<string> clearSpace = new List<string>();
             foreach (var item in sheduleLessons)
