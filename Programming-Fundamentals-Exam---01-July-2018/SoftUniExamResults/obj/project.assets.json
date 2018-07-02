@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Exam\\Programming-Fundamentals-Exam---01-July-2018\\Programming-Fundamentals-Exam---01-July-2018\\SoftUni Bar Income\\SoftUni Bar Income.csproj",
-      "projectName": "SoftUni Bar Income",
-      "projectPath": "C:\\Users\\User\\Desktop\\Exam\\Programming-Fundamentals-Exam---01-July-2018\\Programming-Fundamentals-Exam---01-July-2018\\SoftUni Bar Income\\SoftUni Bar Income.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Exam\\Programming-Fundamentals-Exam---01-July-2018\\Programming-Fundamentals-Exam---01-July-2018\\SoftUniExamResults\\SoftUniExamResults.csproj",
+      "projectName": "SoftUniExamResults",
+      "projectPath": "C:\\Users\\User\\Desktop\\Exam\\Programming-Fundamentals-Exam---01-July-2018\\Programming-Fundamentals-Exam---01-July-2018\\SoftUniExamResults\\SoftUniExamResults.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Exam\\Programming-Fundamentals-Exam---01-July-2018\\Programming-Fundamentals-Exam---01-July-2018\\SoftUni Bar Income\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Exam\\Programming-Fundamentals-Exam---01-July-2018\\Programming-Fundamentals-Exam---01-July-2018\\SoftUniExamResults\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

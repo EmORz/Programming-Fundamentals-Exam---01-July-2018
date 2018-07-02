@@ -7,7 +7,6 @@ namespace SoftUni_Bar_Income
     {
         static void Main(string[] args)
         {
-            //ToDo
             Regex reg = new Regex(@"[^|$%.]*?%([A-Z][a-z]+)%[^|$%.]*?<([A-Za-z]+)>[^.|$%]*?\|(\d+)\|[^.|$%]*?(\d+\.?\d*)\$");
             string input = Console.ReadLine();
             var totalIncome = 0.0;
