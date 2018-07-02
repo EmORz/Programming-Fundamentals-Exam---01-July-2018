@@ -6,6 +6,8 @@ namespace SoftUniReception
     {
         static void Main(string[] args)
         {
+            // 100 / 100 - perfect
+            
             var limitOfEmployeePerHour1 = int.Parse(Console.ReadLine());
             var limitOfEmployeePerHour2 = int.Parse(Console.ReadLine());
             var limitOfEmployeePerHour3 = int.Parse(Console.ReadLine());
