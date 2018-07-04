@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUni Bar Income", "SoftU
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniExamResults", "SoftUniExamResults\SoftUniExamResults.csproj", "{B8BD6145-3063-4A37-BA6C-14972DF56EB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniCoursePlanning", "SoftUniCoursePlanning\SoftUniCoursePlanning.csproj", "{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniCoursePlanning", "SoftUniCoursePlanning\SoftUniCoursePlanning.csproj", "{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniReception", "SoftUniReception\SoftUniReception.csproj", "{A7B6B262-946E-48A9-9FEC-0E9A0638EB55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B6B262-946E-48A9-9FEC-0E9A0638EB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B6B262-946E-48A9-9FEC-0E9A0638EB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B6B262-946E-48A9-9FEC-0E9A0638EB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B6B262-946E-48A9-9FEC-0E9A0638EB55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
