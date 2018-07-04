@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUni Bar Income", "SoftUni Bar Income\SoftUni Bar Income.csproj", "{DDE5ACF0-1FCE-498A-8BBF-97C427B4885A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniExamResults", "SoftUniExamResults\SoftUniExamResults.csproj", "{B8BD6145-3063-4A37-BA6C-14972DF56EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniExamResults", "SoftUniExamResults\SoftUniExamResults.csproj", "{B8BD6145-3063-4A37-BA6C-14972DF56EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniCoursePlanning", "SoftUniCoursePlanning\SoftUniCoursePlanning.csproj", "{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B8BD6145-3063-4A37-BA6C-14972DF56EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8BD6145-3063-4A37-BA6C-14972DF56EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8BD6145-3063-4A37-BA6C-14972DF56EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB1161E-D8A9-45A6-B1E1-02AC8180FBFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

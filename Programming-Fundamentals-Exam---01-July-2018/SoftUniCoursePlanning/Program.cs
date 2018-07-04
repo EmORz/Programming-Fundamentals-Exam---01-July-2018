@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SoftuniCoursePlanning
+namespace SoftUniCoursePlanning
 {
     class Program
     {
@@ -32,17 +32,17 @@ namespace SoftuniCoursePlanning
                     }
 
                 }
-                if (command == "Insert")
+                else if (command == "Insert")
                 {
                     //Insert:Arrays:0
                     string lessons = splitCommands[1];
                     var index = int.Parse(splitCommands[2]);
-                    if (!clearSpace.Contains(lessons)&& index>=0 && index<clearSpace.Count)
+                    if (!clearSpace.Contains(lessons) && index >= 0 && index < clearSpace.Count)
                     {
                         clearSpace.Insert(index, lessons);
                     }
                 }
-                if (command == "Remove")
+                else if (command == "Remove")
                 {
                     string lessons = splitCommands[1];
                     if (clearSpace.Contains(lessons))
@@ -50,9 +50,9 @@ namespace SoftuniCoursePlanning
                         clearSpace.Remove(lessons);
                     }
                 }
-                if (command == "Swap")
+                else if (command == "Swap")
                 {
-                    var first =  splitCommands[1];
+                    var first = splitCommands[1];
                     var second = splitCommands[2];
 
                     if (clearSpace.Contains(first) && clearSpace.Contains(second))
@@ -60,30 +60,21 @@ namespace SoftuniCoursePlanning
                         var indexFirst = clearSpace.IndexOf(first);
                         var indexSecond = clearSpace.IndexOf(second);
                         var lenght = clearSpace.Count();
-                        //Console.WriteLine(lenght);
-                        for (int i = 0; i < lenght; i++)
-                        {
-                            if (i == indexFirst)
-                            {
-                                clearSpace.Insert(indexFirst, second);
-                                clearSpace = clearSpace.Distinct().ToList();
-                            }
-                            if (i == indexSecond)
-                            {
-                                clearSpace.Insert(indexSecond, first);
-                                clearSpace = clearSpace.Distinct().ToList();
-                            }
-                        }
-
-
+                        clearSpace[indexFirst] = clearSpace[indexSecond];
+                        clearSpace[indexSecond] = first;
                     }
                 }
-                if (command == "Exercise")
+                else if (command == "Exercise")
                 {
                     string lessons = splitCommands[1];
                     if (!clearSpace.Contains(lessons))
                     {
-                        clearSpace.Add(lessons+ "-Exercise");
+                        clearSpace.Add(lessons );   //+ "-Exercise"
+                        clearSpace.Insert(clearSpace.IndexOf(lessons)-1,lessons + "-Exercise");   //+ "-Exercise"
+                    }
+                    else
+                    {
+                        clearSpace.Add(lessons + "-Exercise");   //+ "-Exercise"
                     }
                 }
                 commands = Console.ReadLine();
@@ -94,10 +85,6 @@ namespace SoftuniCoursePlanning
                 Console.WriteLine($"{count}.{clearSpace[i]}");
                 count++;
             }
-            //Console.WriteLine(string.Join("\n", clearSpace));
-
-
-            //Console.WriteLine(string.Join("\n", shedulelessons));
         }
     }
 }

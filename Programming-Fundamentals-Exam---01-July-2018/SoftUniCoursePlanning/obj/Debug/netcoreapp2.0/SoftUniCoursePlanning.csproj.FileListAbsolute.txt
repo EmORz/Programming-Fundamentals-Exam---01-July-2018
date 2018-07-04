@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\bin\Debug\netcoreapp2.0\SoftUniCoursePlanning.deps.json
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\bin\Debug\netcoreapp2.0\SoftUniCoursePlanning.runtimeconfig.json
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\bin\Debug\netcoreapp2.0\SoftUniCoursePlanning.runtimeconfig.dev.json
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\bin\Debug\netcoreapp2.0\SoftUniCoursePlanning.dll
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\bin\Debug\netcoreapp2.0\SoftUniCoursePlanning.pdb
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\obj\Debug\netcoreapp2.0\SoftUniCoursePlanning.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\obj\Debug\netcoreapp2.0\SoftUniCoursePlanning.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\obj\Debug\netcoreapp2.0\SoftUniCoursePlanning.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\obj\Debug\netcoreapp2.0\SoftUniCoursePlanning.AssemblyInfo.cs
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\obj\Debug\netcoreapp2.0\SoftUniCoursePlanning.dll
+C:\Users\User\Desktop\Exam\Programming-Fundamentals-Exam---01-July-2018\Programming-Fundamentals-Exam---01-July-2018\SoftUniCoursePlanning\obj\Debug\netcoreapp2.0\SoftUniCoursePlanning.pdb
