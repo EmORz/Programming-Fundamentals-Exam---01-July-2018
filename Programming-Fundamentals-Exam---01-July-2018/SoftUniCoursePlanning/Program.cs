@@ -69,12 +69,12 @@ namespace SoftUniCoursePlanning
                     string lessons = splitCommands[1];
                     if (!clearSpace.Contains(lessons))
                     {
-                        clearSpace.Add(lessons );   //+ "-Exercise"
+                        clearSpace.Add(lessons );  
                         clearSpace.Insert(clearSpace.IndexOf(lessons)-1,lessons + "-Exercise");   //+ "-Exercise"
                     }
                     else
                     {
-                        clearSpace.Add(lessons + "-Exercise");   //+ "-Exercise"
+                        clearSpace.Add(lessons + "-Exercise");   
                     }
                 }
                 commands = Console.ReadLine();
